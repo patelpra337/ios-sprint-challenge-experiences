@@ -12,3 +12,14 @@ import MapKit
 struct Locations {
     static let apple = CLLocationCoordinate2D(latitude: 38.429483, longitude: -121.479189)
 }
+
+struct ReuseIdentifiers {
+    static let annotation = "ExperienceAnnotationView"
+}
+
+struct SegueIdentifiers {
+    static let addExperienceSegue: String = "AddExperienceSegue"
+    static let addImageSegue: String = "AddImageSegue"
+    static let addAudioSegue: String = "AddAudioSegue"
+    static let addVideoSegue: String = "AddVideoSegue"
+}

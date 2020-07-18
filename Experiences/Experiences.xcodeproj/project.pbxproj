@@ -19,6 +19,7 @@
 		AB4FE71924C35CF300EC752F /* UIImage+Scaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE71824C35CF300EC752F /* UIImage+Scaling.swift */; };
 		AB4FE71B24C3641900EC752F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE71A24C3641900EC752F /* Constants.swift */; };
 		AB4FE71D24C370DF00EC752F /* ExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE71C24C370DF00EC752F /* ExperienceController.swift */; };
+		AB4FE71F24C37DE400EC752F /* ExperiencesMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE71E24C37DE400EC752F /* ExperiencesMapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		AB4FE71824C35CF300EC752F /* UIImage+Scaling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Scaling.swift"; sourceTree = "<group>"; };
 		AB4FE71A24C3641900EC752F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AB4FE71C24C370DF00EC752F /* ExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceController.swift; sourceTree = "<group>"; };
+		AB4FE71E24C37DE400EC752F /* ExperiencesMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesMapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		AB4FE70B24C3564D00EC752F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AB4FE71E24C37DE400EC752F /* ExperiencesMapViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				AB4FE71524C35BCA00EC752F /* VideoPlayerView.swift in Sources */,
 				AB4FE71924C35CF300EC752F /* UIImage+Scaling.swift in Sources */,
 				AB4FE71B24C3641900EC752F /* Constants.swift in Sources */,
+				AB4FE71F24C37DE400EC752F /* ExperiencesMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
