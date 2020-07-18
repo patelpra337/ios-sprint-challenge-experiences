@@ -40,8 +40,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="createExperienceButton" destination="SoS-4h-Ivw" id="iJR-sh-f3K"/>
-                        <outlet property="createExperiencesAgain" destination="SoS-4h-Ivw" id="7p4-Fb-LWc"/>
+                        <outlet property="createExperienceButton" destination="SoS-4h-Ivw" id="7p4-Fb-LWc"/>
                         <outlet property="mapView" destination="hog-0X-mxZ" id="2wr-ru-Cvy"/>
                     </connections>
                 </viewController>
