@@ -93,9 +93,25 @@ class ExperiencesMapViewController: UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == SegueIdentifiers.addExperienceSegue {
-            guard let destinationVC = segue.destination as? UINavigationController, let targetController = destinationVC.topViewController as? AddExperienceViewController
+            guard let destinationVC = segue.destination as? UINavigationController, let targetController = destinationVC.topViewController as? AddExperienceViewController else { return }
+            targetController.experienceController = experienceController
         }
-
     }
+}
 
+extension ExperiencesMapViewController: MKMapViewDelegate {
+    func mapViewDidChangeVisibleRegion(_ mapView: MKMapView) {
+        fetchExperiences()
+    }
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        guard let experience = annotation as? Experience else { return nil }
+        
+        guard let annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: ReuseIdentifiers.annotation, for: experience) as? MKMarkerAnnotationView else {
+            preconditionFailure("Missing the registered map annotation view")
+    }
+        
+        return annotationView
+    
+    }
 }
