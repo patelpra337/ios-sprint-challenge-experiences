@@ -24,6 +24,7 @@
 		AB4FE72324C48F3E00EC752F /* AddImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE72224C48F3E00EC752F /* AddImageViewController.swift */; };
 		AB4FE72524C48F5800EC752F /* AddAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE72424C48F5800EC752F /* AddAudioViewController.swift */; };
 		AB4FE72724C48F6600EC752F /* AddVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE72624C48F6600EC752F /* AddVideoViewController.swift */; };
+		AB4FE72924C4D49400EC752F /* MediaFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE72824C4D49400EC752F /* MediaFormats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		AB4FE72224C48F3E00EC752F /* AddImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageViewController.swift; sourceTree = "<group>"; };
 		AB4FE72424C48F5800EC752F /* AddAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAudioViewController.swift; sourceTree = "<group>"; };
 		AB4FE72624C48F6600EC752F /* AddVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVideoViewController.swift; sourceTree = "<group>"; };
+		AB4FE72824C4D49400EC752F /* MediaFormats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFormats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				AB4FE71824C35CF300EC752F /* UIImage+Scaling.swift */,
 				AB4FE71A24C3641900EC752F /* Constants.swift */,
+				AB4FE72824C4D49400EC752F /* MediaFormats.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4FE72924C4D49400EC752F /* MediaFormats.swift in Sources */,
 				AB4FE71324C35B5A00EC752F /* AudioVisualizer.swift in Sources */,
 				AB4FE71124C356B200EC752F /* Experience.swift in Sources */,
 				AB4FE72324C48F3E00EC752F /* AddImageViewController.swift in Sources */,

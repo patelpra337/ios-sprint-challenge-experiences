@@ -206,6 +206,7 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Cpl-3T-oHs" userLabel="Brightness Slider">
                                                 <rect key="frame" x="88" y="0.0" width="241" height="31"/>
                                                 <connections>
+                                                    <action selector="brightnessChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="uiF-NF-9DS"/>
                                                     <action selector="filterSettingsChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="TOc-YR-lDw"/>
                                                 </connections>
                                             </slider>
@@ -223,6 +224,7 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.25" maxValue="4" translatesAutoresizingMaskIntoConstraints="NO" id="bWH-LH-z3Z" userLabel="Contrast Slider">
                                                 <rect key="frame" x="88" y="0.0" width="241" height="31"/>
                                                 <connections>
+                                                    <action selector="contrastChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="jt8-EW-ieC"/>
                                                     <action selector="filterSettingsChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="Gqq-aV-nKM"/>
                                                 </connections>
                                             </slider>
@@ -241,6 +243,7 @@
                                                 <rect key="frame" x="88" y="0.0" width="241" height="31"/>
                                                 <connections>
                                                     <action selector="filterSettingsChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="zcW-bo-n3N"/>
+                                                    <action selector="saturationChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="xUi-2R-heI"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -257,6 +260,7 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="Zx4-gO-XFS" userLabel="Saturation Slider">
                                                 <rect key="frame" x="36.333333333333343" y="0.0" width="292.66666666666663" height="31"/>
                                                 <connections>
+                                                    <action selector="blurChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="toN-eT-iNz"/>
                                                     <action selector="filterSettingsChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="VTX-RC-vNp"/>
                                                 </connections>
                                             </slider>
@@ -284,15 +288,15 @@
                     <navigationItem key="navigationItem" title="Add Image" id="bEh-YZ-TzL">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="mTa-36-zh1">
                             <connections>
-                                <action selector="saveButtonPressed:" destination="0jn-fe-hj1" id="VBk-6x-ezp"/>
+                                <action selector="saveButtonTapped:" destination="0jn-fe-hj1" id="n00-yw-bV1"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="blurSlider" destination="Zx4-gO-XFS" id="Bmm-iu-3aZ"/>
-                        <outlet property="brightnessSlider" destination="Cpl-3T-oHs" id="x0I-d7-Ef5"/>
-                        <outlet property="contrastSlider" destination="bWH-LH-z3Z" id="hUx-X8-VWr"/>
-                        <outlet property="imageView" destination="ZDL-4y-bSH" id="Bo8-gt-HX9"/>
+                        <outlet property="brightnessSlider" destination="Cpl-3T-oHs" id="Na0-yy-WPB"/>
+                        <outlet property="contrastSlider" destination="bWH-LH-z3Z" id="atp-nE-lem"/>
+                        <outlet property="imageView" destination="ZDL-4y-bSH" id="l7i-lo-vpe"/>
                         <outlet property="saturationSlider" destination="6NA-dG-bd8" id="gcE-34-0AZ"/>
                     </connections>
                 </viewController>
