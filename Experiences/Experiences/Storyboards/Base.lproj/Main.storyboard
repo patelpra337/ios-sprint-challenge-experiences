@@ -133,19 +133,21 @@
                     <navigationItem key="navigationItem" title="New Experience" id="YpC-7f-yRy">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="sj1-cb-mYu">
                             <connections>
-                                <action selector="cancelButtonTapped:" destination="Chl-DJ-Dgl" id="xGT-j7-0yI"/>
+                                <action selector="cancelButtonTapped:" destination="Chl-DJ-Dgl" id="aU8-of-IO0"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="SuC-st-ZnH">
                             <connections>
-                                <action selector="saveButtonTapped:" destination="Chl-DJ-Dgl" id="LJB-Qd-E2d"/>
+                                <action selector="saveButtonTapped:" destination="Chl-DJ-Dgl" id="eqy-3v-eCm"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="audioButton" destination="h7F-3f-jpQ" id="PFI-OW-Y25"/>
                         <outlet property="audioRecordingButton" destination="h7F-3f-jpQ" id="9Ri-do-i7z"/>
-                        <outlet property="imageView" destination="iH8-ip-eEE" id="LBn-VB-Z7B"/>
-                        <outlet property="titleTextField" destination="ZcQ-jA-4qQ" id="Cbw-pX-EsP"/>
+                        <outlet property="imageView" destination="iH8-ip-eEE" id="eSb-TE-hrE"/>
+                        <outlet property="titleTextField" destination="ZcQ-jA-4qQ" id="hXe-GX-efo"/>
+                        <outlet property="videoButton" destination="ETz-fP-Prf" id="WQf-VX-mOq"/>
                         <outlet property="videoRecordingButton" destination="ETz-fP-Prf" id="YLr-Qf-2CF"/>
                     </connections>
                 </viewController>

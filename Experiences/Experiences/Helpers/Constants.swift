@@ -9,6 +9,10 @@
 import Foundation
 import MapKit
 
+struct BR {
+    static let buttonCornerRadius: CGFloat = 4.0
+}
+
 struct Locations {
     static let apple = CLLocationCoordinate2D(latitude: 38.429483, longitude: -121.479189)
 }

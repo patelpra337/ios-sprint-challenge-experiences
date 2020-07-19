@@ -21,6 +21,9 @@
 		AB4FE71D24C370DF00EC752F /* ExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE71C24C370DF00EC752F /* ExperienceController.swift */; };
 		AB4FE71F24C37DE400EC752F /* ExperiencesMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE71E24C37DE400EC752F /* ExperiencesMapViewController.swift */; };
 		AB4FE72124C386DC00EC752F /* AddExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE72024C386DC00EC752F /* AddExperienceViewController.swift */; };
+		AB4FE72324C48F3E00EC752F /* AddImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE72224C48F3E00EC752F /* AddImageViewController.swift */; };
+		AB4FE72524C48F5800EC752F /* AddAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE72424C48F5800EC752F /* AddAudioViewController.swift */; };
+		AB4FE72724C48F6600EC752F /* AddVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4FE72624C48F6600EC752F /* AddVideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		AB4FE71C24C370DF00EC752F /* ExperienceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceController.swift; sourceTree = "<group>"; };
 		AB4FE71E24C37DE400EC752F /* ExperiencesMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesMapViewController.swift; sourceTree = "<group>"; };
 		AB4FE72024C386DC00EC752F /* AddExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExperienceViewController.swift; sourceTree = "<group>"; };
+		AB4FE72224C48F3E00EC752F /* AddImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageViewController.swift; sourceTree = "<group>"; };
+		AB4FE72424C48F5800EC752F /* AddAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAudioViewController.swift; sourceTree = "<group>"; };
+		AB4FE72624C48F6600EC752F /* AddVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 			children = (
 				AB4FE71E24C37DE400EC752F /* ExperiencesMapViewController.swift */,
 				AB4FE72024C386DC00EC752F /* AddExperienceViewController.swift */,
+				AB4FE72224C48F3E00EC752F /* AddImageViewController.swift */,
+				AB4FE72424C48F5800EC752F /* AddAudioViewController.swift */,
+				AB4FE72624C48F6600EC752F /* AddVideoViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -220,6 +229,7 @@
 			files = (
 				AB4FE71324C35B5A00EC752F /* AudioVisualizer.swift in Sources */,
 				AB4FE71124C356B200EC752F /* Experience.swift in Sources */,
+				AB4FE72324C48F3E00EC752F /* AddImageViewController.swift in Sources */,
 				AB4FE71724C35CA800EC752F /* CameraPreviewView.swift in Sources */,
 				AB4FE71D24C370DF00EC752F /* ExperienceController.swift in Sources */,
 				AB4FE72124C386DC00EC752F /* AddExperienceViewController.swift in Sources */,
@@ -228,6 +238,8 @@
 				AB4FE71524C35BCA00EC752F /* VideoPlayerView.swift in Sources */,
 				AB4FE71924C35CF300EC752F /* UIImage+Scaling.swift in Sources */,
 				AB4FE71B24C3641900EC752F /* Constants.swift in Sources */,
+				AB4FE72524C48F5800EC752F /* AddAudioViewController.swift in Sources */,
+				AB4FE72724C48F6600EC752F /* AddVideoViewController.swift in Sources */,
 				AB4FE71F24C37DE400EC752F /* ExperiencesMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
