@@ -205,7 +205,6 @@
                                                 <rect key="frame" x="88" y="0.0" width="241" height="31"/>
                                                 <connections>
                                                     <action selector="brightnessChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="uiF-NF-9DS"/>
-                                                    <action selector="filterSettingsChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="TOc-YR-lDw"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -223,7 +222,6 @@
                                                 <rect key="frame" x="88" y="0.0" width="241" height="31"/>
                                                 <connections>
                                                     <action selector="contrastChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="jt8-EW-ieC"/>
-                                                    <action selector="filterSettingsChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="Gqq-aV-nKM"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -240,7 +238,6 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="6NA-dG-bd8" userLabel="Saturation Slider">
                                                 <rect key="frame" x="88" y="0.0" width="241" height="31"/>
                                                 <connections>
-                                                    <action selector="filterSettingsChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="zcW-bo-n3N"/>
                                                     <action selector="saturationChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="xUi-2R-heI"/>
                                                 </connections>
                                             </slider>
@@ -259,7 +256,6 @@
                                                 <rect key="frame" x="36.333333333333343" y="0.0" width="292.66666666666663" height="31"/>
                                                 <connections>
                                                     <action selector="blurChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="toN-eT-iNz"/>
-                                                    <action selector="filterSettingsChanged:" destination="0jn-fe-hj1" eventType="valueChanged" id="VTX-RC-vNp"/>
                                                 </connections>
                                             </slider>
                                         </subviews>

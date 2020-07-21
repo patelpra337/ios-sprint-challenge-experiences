@@ -25,21 +25,16 @@ class AddImageViewController: UIViewController {
     
     var originalImage: UIImage? {
         didSet {
-            guard let originalImage = originalImage else {
-                scaledImage = nil
-                return
-            }
+            guard let originalImage = originalImage else { return }
+                guard imageView != nil else { return }
             
             var scaledSize = imageView.bounds.size
-            let scale = UIScreen.main.scale
+            let scale: CGFloat = UIScreen.main.scale
             
             scaledSize = CGSize(width: scaledSize.width*scale,
                                 height: scaledSize.height*scale)
             
-            guard let scaledUIImage = originalImage.imageByScaling(toSize: scaledSize) else {
-                scaledImage = nil
-                return
-            }
+            guard let scaledUIImage = originalImage.imageByScaling(toSize: scaledSize) else { return }
             
             scaledImage = CIImage(image: scaledUIImage)
         }
@@ -58,7 +53,7 @@ class AddImageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        originalImage = imageView.image
+        imageView.contentMode = .scaleAspectFit
         presentImagePickerController()
     }
     
